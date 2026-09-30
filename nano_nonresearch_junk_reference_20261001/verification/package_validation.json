@@ -1,0 +1,99 @@
+{
+  "validated_at": "2026-10-01T02:27:31.190152+09:00",
+  "status": "passed",
+  "copied_files_checked": 19,
+  "copy_checks": [
+    {
+      "bundle_path": "code/active/s0_lib.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/active/s0_junk_flags.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/active/s0_junk_flags_v3.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/active/s0_exclusion_flags.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/active/s0_a5_dist.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/active/s0_mapping_unit_status.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/active/s0_junk_title_types.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/history/m54_junk_genre_v31.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/history/m55_junk_genre_v31_verify.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/history/m70_junk_v32_patterns.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "code/history/s9_junk.py",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "data/exclusion_flags.parquet",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "data/junk_doc_flags_v3.parquet",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "data/junk_doc_flags.parquet",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "data/a5_dist.parquet",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "data/mapping_unit_status.parquet",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "data/junk_title_type_dist.parquet",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "reference/second_pass_results.jsonl",
+      "source_and_copy_hash_match": true
+    },
+    {
+      "bundle_path": "reference/정크와혼합_현행정의_2026-09-24.md",
+      "source_and_copy_hash_match": true
+    }
+  ],
+  "extracted_constants_checked": [
+    "JUNK_NOTE_PCT",
+    "JUNK_CAND_PCT",
+    "JUNK",
+    "JUNK_V3",
+    "JUNK_V3_EXCLUDE",
+    "JUNK_TYPE_NAMES_V3"
+  ],
+  "v3_pattern_count": 27,
+  "derived_source_hashes_match": true,
+  "data_summary_consistency": "passed",
+  "readme_relative_links_checked": 28,
+  "independent_document_review": "No material factual errors or required omissions found; code and snapshot summary checked.",
+  "original_scripts_executed": false,
+  "original_files_modified": false,
+  "checksum_manifest": "SHA256SUMS"
+}

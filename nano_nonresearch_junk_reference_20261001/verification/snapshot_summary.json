@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-10-01T02:23:42.287789+09:00",
+  "basis": "Queries run against bundle copies only",
+  "queries_file": "verification/queries.sql",
+  "results": {
+    "exclusion_reasons": [
+      {
+        "reason": "junk_regex_v2",
+        "documents": 101461
+      },
+      {
+        "reason": "junk_regex_v3",
+        "documents": 179505
+      },
+      {
+        "reason": "retracted",
+        "documents": 2326
+      }
+    ],
+    "exclusion_uniqueness": [
+      {
+        "rows": 283292,
+        "unique_work_ids": 283292
+      }
+    ],
+    "junk_flags": [
+      {
+        "flag_source": "v2",
+        "flag_only": false,
+        "documents": 101462
+      },
+      {
+        "flag_source": "v3",
+        "flag_only": false,
+        "documents": 181192
+      },
+      {
+        "flag_source": "v3",
+        "flag_only": true,
+        "documents": 462
+      }
+    ],
+    "nano_ratio_summary": [
+      {
+        "nanos": 78049,
+        "original_members": 58904845,
+        "nonresearch_documents": 280966,
+        "nanos_ge50": 50,
+        "nanos_ge30_lt50": 42,
+        "nanos_ge30": 92
+      }
+    ],
+    "mapping_status_summary": [
+      {
+        "status": "junk_core",
+        "nanos": 19
+      },
+      {
+        "status": "junk_no_core",
+        "nanos": 73
+      },
+      {
+        "status": "mixed_core",
+        "nanos": 300
+      },
+      {
+        "status": "mixed_no_core",
+        "nanos": 313
+      },
+      {
+        "status": "normal",
+        "nanos": 77344
+      }
+    ]
+  }
+}
