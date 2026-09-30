@@ -1,0 +1,273 @@
+{
+  "created_at": "2026-10-01T02:22:45.491884+09:00",
+  "source_root": "/home/snoopy/Positron/nano-cluster-massage",
+  "bundle_root": "/home/snoopy/Positron/critical-tech-info/outputs/nano_nonresearch_junk_reference_20261001",
+  "purpose": "비연구 문헌 판별 코드와 현행 산출물의 검토용 사본",
+  "production_scripts_executed": false,
+  "source_files_modified": false,
+  "copied_files": [
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_lib.py",
+      "bundle_path": "code/active/s0_lib.py",
+      "role": "정규식과 공통 상수 원본",
+      "bytes": 100786,
+      "source_mtime": "2026-09-13T15:37:42.289574+09:00",
+      "sha256": "6311af7c970b63e63c2fc1d5dfff1cf27afd97f3b9c5614a065621b05bafac22",
+      "source_sha256_at_copy": "6311af7c970b63e63c2fc1d5dfff1cf27afd97f3b9c5614a065621b05bafac22",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_junk_flags.py",
+      "bundle_path": "code/active/s0_junk_flags.py",
+      "role": "v2 문헌 플래그 생성기",
+      "bytes": 1686,
+      "source_mtime": "2026-09-05T23:38:34.928137+09:00",
+      "sha256": "562c506f2537fe6dcf867b799d00aac1a17ee6eecf0dc1c1b7b762f51874e710",
+      "source_sha256_at_copy": "562c506f2537fe6dcf867b799d00aac1a17ee6eecf0dc1c1b7b762f51874e710",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_junk_flags_v3.py",
+      "bundle_path": "code/active/s0_junk_flags_v3.py",
+      "role": "확장 정규식과 2차 판정 반영 생성기",
+      "bytes": 6598,
+      "source_mtime": "2026-09-07T21:00:37.551329+09:00",
+      "sha256": "c18aa71e78de2af0e0df066cf3619d732013da10b591c687831c5c7a5f16949a",
+      "source_sha256_at_copy": "c18aa71e78de2af0e0df066cf3619d732013da10b591c687831c5c7a5f16949a",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_exclusion_flags.py",
+      "bundle_path": "code/active/s0_exclusion_flags.py",
+      "role": "정본 제외표 통합 생성기",
+      "bytes": 4201,
+      "source_mtime": "2026-09-09T23:05:35.547544+09:00",
+      "sha256": "6df60c7cea78d7f1cbe3cdd489384e9b11a64b0e391cba5f8a564cd29e4ecd90",
+      "source_sha256_at_copy": "6df60c7cea78d7f1cbe3cdd489384e9b11a64b0e391cba5f8a564cd29e4ecd90",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_a5_dist.py",
+      "bundle_path": "code/active/s0_a5_dist.py",
+      "role": "전체 멤버 기준 비율 집계기",
+      "bytes": 6198,
+      "source_mtime": "2026-09-09T23:05:58.338190+09:00",
+      "sha256": "215a0fc8d0a022024893d49fce6632b154656eaf494b60be200fd66694bc6ca9",
+      "source_sha256_at_copy": "215a0fc8d0a022024893d49fce6632b154656eaf494b60be200fd66694bc6ca9",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_mapping_unit_status.py",
+      "bundle_path": "code/active/s0_mapping_unit_status.py",
+      "role": "나노별 상태 판정기",
+      "bytes": 29262,
+      "source_mtime": "2026-09-09T23:31:18.235844+09:00",
+      "sha256": "2217b09ae64dc0388a3578ec01219891210765754091e10882e9ecf1568f0cfe",
+      "source_sha256_at_copy": "2217b09ae64dc0388a3578ec01219891210765754091e10882e9ecf1568f0cfe",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_junk_title_types.py",
+      "bundle_path": "code/active/s0_junk_title_types.py",
+      "role": "비연구 제목 유형 분포 생성기",
+      "bytes": 3540,
+      "source_mtime": "2026-09-09T23:05:58.338304+09:00",
+      "sha256": "8a4fc7da284b8a3d47e78f83ddf3e95e980fe3a1922c7ad9ac5ae84f6beef142",
+      "source_sha256_at_copy": "8a4fc7da284b8a3d47e78f83ddf3e95e980fe3a1922c7ad9ac5ae84f6beef142",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/m54_junk_genre_v31.py",
+      "bundle_path": "code/history/m54_junk_genre_v31.py",
+      "role": "규칙 확장 조사와 표본 검토를 위한 이력 코드",
+      "bytes": 68509,
+      "source_mtime": "2026-09-07T20:32:31.288744+09:00",
+      "sha256": "bdc304391d52f6048fdf6d22b7343d5a6fe2841fc02a959f5be139e4b58ce60c",
+      "source_sha256_at_copy": "bdc304391d52f6048fdf6d22b7343d5a6fe2841fc02a959f5be139e4b58ce60c",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/m55_junk_genre_v31_verify.py",
+      "bundle_path": "code/history/m55_junk_genre_v31_verify.py",
+      "role": "규칙 확장 조사와 표본 검토를 위한 이력 코드",
+      "bytes": 20207,
+      "source_mtime": "2026-09-07T20:47:37.302709+09:00",
+      "sha256": "37fc9c663eaa5e54056871ec55727f5a15d5a8a7192f8a7c09cb044f0ba893fe",
+      "source_sha256_at_copy": "37fc9c663eaa5e54056871ec55727f5a15d5a8a7192f8a7c09cb044f0ba893fe",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/m70_junk_v32_patterns.py",
+      "bundle_path": "code/history/m70_junk_v32_patterns.py",
+      "role": "규칙 확장 조사와 표본 검토를 위한 이력 코드",
+      "bytes": 6865,
+      "source_mtime": "2026-09-09T20:50:24.897910+09:00",
+      "sha256": "636bbd655114510c6c7e34a3281f143e69ff06703f17e8cb95a86eb1f8a411a5",
+      "source_sha256_at_copy": "636bbd655114510c6c7e34a3281f143e69ff06703f17e8cb95a86eb1f8a411a5",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/design_v1/precomputed/scripts/s9_junk.py",
+      "bundle_path": "code/history/s9_junk.py",
+      "role": "thk 대표 코어 제목 기준 초기 탐색 코드",
+      "bytes": 3271,
+      "source_mtime": "2026-08-18T20:04:48.829399+09:00",
+      "sha256": "48218ad3faf689617fb33e2b866bef4818c55252489ab9e244a28945edf795e6",
+      "source_sha256_at_copy": "48218ad3faf689617fb33e2b866bef4818c55252489ab9e244a28945edf795e6",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/out/exclusion_flags.parquet",
+      "bundle_path": "data/exclusion_flags.parquet",
+      "role": "실제 문헌 제외의 정본",
+      "bytes": 15967250,
+      "source_mtime": "2026-09-09T23:32:13.179586+09:00",
+      "sha256": "d474f1b41aba70a8b7d077fc15b7ac397e5697956e476bf709677fe628e906ce",
+      "source_sha256_at_copy": "d474f1b41aba70a8b7d077fc15b7ac397e5697956e476bf709677fe628e906ce",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/out/junk_doc_flags_v3.parquet",
+      "bundle_path": "data/junk_doc_flags_v3.parquet",
+      "role": "v2와 확장 규칙 적중 및 표시 전용 판정",
+      "bytes": 16045034,
+      "source_mtime": "2026-09-09T22:26:37.908173+09:00",
+      "sha256": "0748406dee8a998f52f8c2a9a1933b7ff07368571170fb329a690c4d3b83d544",
+      "source_sha256_at_copy": "0748406dee8a998f52f8c2a9a1933b7ff07368571170fb329a690c4d3b83d544",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/design_v1/precomputed/junk_doc_flags.parquet",
+      "bundle_path": "data/junk_doc_flags.parquet",
+      "role": "v2 문헌 플래그",
+      "bytes": 5423835,
+      "source_mtime": "2026-09-06T05:22:34.888520+09:00",
+      "sha256": "88258e341cd32f53d6e239fe892bf0f919ddb785ddbf06263b16f88bce59b915",
+      "source_sha256_at_copy": "88258e341cd32f53d6e239fe892bf0f919ddb785ddbf06263b16f88bce59b915",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/out/a5_dist.parquet",
+      "bundle_path": "data/a5_dist.parquet",
+      "role": "나노별 전체 멤버와 비연구 문헌 비율",
+      "bytes": 1657337,
+      "source_mtime": "2026-09-09T23:34:06.445721+09:00",
+      "sha256": "00069fac063e855bdee48b04b14fc3873d3defe7cbe45fce6bfa3fec91704c99",
+      "source_sha256_at_copy": "00069fac063e855bdee48b04b14fc3873d3defe7cbe45fce6bfa3fec91704c99",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/out/mapping_unit_status.parquet",
+      "bundle_path": "data/mapping_unit_status.parquet",
+      "role": "나노별 최종 매핑 상태",
+      "bytes": 1387448,
+      "source_mtime": "2026-09-10T02:10:07.593475+09:00",
+      "sha256": "db677f13d5db723f57f1b3a923172b4a7ef34887f012fc5e6ba633265ba82fee",
+      "source_sha256_at_copy": "db677f13d5db723f57f1b3a923172b4a7ef34887f012fc5e6ba633265ba82fee",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/out/junk_title_type_dist.parquet",
+      "bundle_path": "data/junk_title_type_dist.parquet",
+      "role": "나노별 비연구 제목 유형 집계",
+      "bytes": 540720,
+      "source_mtime": "2026-09-09T23:34:08.900745+09:00",
+      "sha256": "ca44cf084a58bf66b874b7aefaebcf9f4aa9c153387f22da05efd436d50f9e7b",
+      "source_sha256_at_copy": "ca44cf084a58bf66b874b7aefaebcf9f4aa9c153387f22da05efd436d50f9e7b",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/out/_junk_v3/second_pass_results.jsonl",
+      "bundle_path": "reference/second_pass_results.jsonl",
+      "role": "확장 규칙 적중 문헌의 2차 판정 기록",
+      "bytes": 1485947,
+      "source_mtime": "2026-09-07T21:32:02.840405+09:00",
+      "sha256": "d891293d13aaafafdf4a9352a25c647356c0b4d86a50f172015d2ae30f46fc52",
+      "source_sha256_at_copy": "d891293d13aaafafdf4a9352a25c647356c0b4d86a50f172015d2ae30f46fc52",
+      "copy_verified": true
+    },
+    {
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/design_v1/facts/정크와혼합_현행정의_2026-09-24.md",
+      "bundle_path": "reference/정크와혼합_현행정의_2026-09-24.md",
+      "role": "현재 상태와 활용 범위의 정의",
+      "bytes": 3540,
+      "source_mtime": "2026-09-24T01:45:32.820595+09:00",
+      "sha256": "72ef8d71db6cce0d5c7a7a0cd16468e2d26cbd4ea5b7e4749b1adafbef92eaf7",
+      "source_sha256_at_copy": "72ef8d71db6cce0d5c7a7a0cd16468e2d26cbd4ea5b7e4749b1adafbef92eaf7",
+      "copy_verified": true
+    }
+  ],
+  "derived_files": [
+    {
+      "bundle_path": "reference/regex_patterns.json",
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/pipeline/scripts/s0_lib.py",
+      "source_sha256": "6311af7c970b63e63c2fc1d5dfff1cf27afd97f3b9c5614a065621b05bafac22",
+      "method": "Python AST literal extraction",
+      "sha256": "3e44a54f957bcb2fb9855d429976de86bf0a7c774ad74f36da379f60dca81ae3",
+      "bytes": 69281
+    },
+    {
+      "bundle_path": "reference/결정원장_관련항목.md",
+      "source_path": "/home/snoopy/Positron/nano-cluster-massage/design_v1/결정원장.md",
+      "source_sha256": "b516e8da5c215d80f5103f0bc0dfc1b16773fe7533b79355788aca603ca14ea7",
+      "source_lines": [
+        {
+          "decision": 25,
+          "line": 646
+        },
+        {
+          "decision": 29,
+          "line": 649
+        },
+        {
+          "decision": 79,
+          "line": 699
+        },
+        {
+          "decision": 89,
+          "line": 709
+        },
+        {
+          "decision": 90,
+          "line": 710
+        },
+        {
+          "decision": 118,
+          "line": 738
+        },
+        {
+          "decision": 122,
+          "line": 742
+        },
+        {
+          "decision": 127,
+          "line": 747
+        },
+        {
+          "decision": 131,
+          "line": 751
+        },
+        {
+          "decision": 132,
+          "line": 752
+        },
+        {
+          "decision": 26,
+          "line": 764
+        }
+      ],
+      "method": "Exact source row excerpts",
+      "sha256": "ff4560a896abca630a0b285692ecef874150228f88b8f30f9c37459f489ad8c0",
+      "bytes": 21318
+    }
+  ],
+  "generated_files": [
+    "README.md",
+    "verification/queries.sql",
+    "verification/snapshot_summary.json",
+    "verification/data_schemas.json",
+    "verification/package_validation.json",
+    "SHA256SUMS"
+  ],
+  "hash_manifest": "SHA256SUMS"
+}
